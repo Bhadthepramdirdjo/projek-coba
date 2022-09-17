@@ -1,0 +1,86 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis',sans-serif;  
+}
+
+/* Navbar */
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 15px;
+}
+
+.containerNav a {
+    color: black;
+    font-weight: 500;
+}
+
+.navTitle {
+    margin-left: 3px;
+}
+
+a.navTitle {
+    text-transform: uppercase;
+}
+
+.navClick {
+    display: flex;
+}
+
+.navClick ul {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.navbar .containerNav a {
+    text-decoration: none;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+}
+/* Akhir Navbar */
+
+/* Main Menu */
+.containerMain {
+    padding: 6rem 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.articleMain {
+    padding: 40px;
+}
+
+.articleMain h1 {
+    text-transform: capitalize;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.articleMain p {
+    font-weight: lighter;
+}
+/* Akhir Main Menu */
+
+.body2{
+    padding: 6rem 12rem;
+    display: flex;
+    align-items: center;
+
+}
+.kiri{
+    float: left;
+    margin: 20px;
+}
+.kanan{
+    float: right;
+}
+
+
+
